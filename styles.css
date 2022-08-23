@@ -1,3 +1,12 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  }
+
 .header {
     background-image: url('images/pic_1.jpg');
     height: auto;
@@ -40,4 +49,12 @@ h5 {
 
 .card-body {
     padding: 0 !important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.container {
+    background: #C271FF;
 }
