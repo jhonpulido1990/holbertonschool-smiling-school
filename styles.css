@@ -37,7 +37,7 @@ time {
 }
 
 h1 {
-  padding-top: 200px !important;
+  padding-top: 140px !important;
   font-size: 150px !important;
 }
 
@@ -70,7 +70,7 @@ h5 {
   object-fit: cover;
 }
 
-.carousel-control-prev-icon {
+.carousel-control-prev-icon, .icon-prev {
   background-image: url("images/arrow_white_left.png") !important;
 }
 
@@ -118,11 +118,5 @@ a:after {
 .card-image .card-img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-}
-
-.card {
-  margin: 0 .5em;
-  width: calc(100%/3);
   object-fit: cover;
 }
