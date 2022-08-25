@@ -6,7 +6,6 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%;
 }
 
 .header {
@@ -38,7 +37,8 @@ time {
 }
 
 h1 {
-  padding-top: 4rem;
+  padding-top: 200px !important;
+  font-size: 150px !important;
 }
 
 h5 {
@@ -111,8 +111,8 @@ a:after {
 
 .card-image {
   position: relative;
-  height: 60px;
-  width: 60px;
+  height: 200px;
+  width: 200px;
 }
 
 .card-image .card-img {
