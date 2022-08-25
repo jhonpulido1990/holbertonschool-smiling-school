@@ -78,6 +78,14 @@ h5 {
   background-image: url("images/arrow_white_right.png") !important;
 }
 
+.black-r {
+  background-image: url("images/arrow_black_left.png") !important;
+}
+
+.black-l {
+  background-image: url("images/arrow_black_right.png") !important;
+}
+
 a {
   color: white !important;
   text-decoration: none;
@@ -110,5 +118,11 @@ a:after {
 .card-image .card-img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  margin: 0 .5em;
+  width: calc(100%/3);
   object-fit: cover;
 }
