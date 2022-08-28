@@ -26,6 +26,15 @@ html {
   padding-bottom: 3rem;
 }
 
+.header2 {
+  background-image: url('images/pic_3.jpg');
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3rem;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: white !important;
 }
@@ -50,17 +59,17 @@ h1 {
   font-size: 130px !important;
 }
 
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
 .title-pricing {
   font-size: 40px !important;
 }
 
 .space-pricing {
   padding-top: 220px;
-}
-
-h5 {
-  padding: 0;
-  margin: 0;
 }
 
 .btn-default {
@@ -122,6 +131,24 @@ a:after {
   object-fit: cover;
 }
 
-.membership, footer {
+.product-holder {
+  position: relative;
+  display: block;
+}
+
+.plus-image {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+
+.membership,
+footer {
   background: #0E0C3B;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
 }
